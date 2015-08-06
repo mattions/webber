@@ -10,4 +10,5 @@ RUN apt-get update && apt-get install -y\
     python-virtualenv \
     phantomjs \
     git \
-    postgresql-common
+    postgresql-common \
+    postgresql-server-dev-9.3
