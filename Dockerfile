@@ -7,6 +7,7 @@ MAINTAINER  mattions "mattions@gmail.com"
 
 RUN apt-get update && apt-get install -y\
     python \
+    python-dev \
     python-virtualenv \
     phantomjs \
     git \
