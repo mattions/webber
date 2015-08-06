@@ -8,5 +8,6 @@ This is a base image based on Ubuntu, with installed:
 - Virtualenv 
 - PhantomJS
 - Git
+- postgresql-common
 
 It's handy if you want to run beahvioural tests via Selenium, using a PhantomJS driver.
