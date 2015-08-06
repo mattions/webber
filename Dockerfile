@@ -12,5 +12,5 @@ RUN apt-get update && apt-get install -y\
     phantomjs \
     git \
     postgresql-common \
-    postgresql-server-dev-9.3
+    postgresql-server-dev-9.3 \
     postgresql-client-9.3
