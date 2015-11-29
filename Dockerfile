@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y\
     postgresql-server-dev-9.3 \
     postgresql-client-9.3 \
     xvfb \
-    firefox
+    firefox \
     npm
    
 # Latest pip from pipy.
