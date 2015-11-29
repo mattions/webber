@@ -21,5 +21,10 @@ RUN apt-get update && apt-get install -y\
     npm
    
 # Latest pip from pipy.
-RUN npm install -g bower    
+RUN npm install -g bower
+
+# need to link this.
+RUN ln /usr/bin/nodejs  /usr/bin/node     
+
+# Update to latest pip.
 RUN pip install -U pip
