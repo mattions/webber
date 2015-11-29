@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y\
     postgresql-common \
     postgresql-server-dev-9.3 \
     postgresql-client-9.3 \
-    nodejs
+    npm
    
 # Latest pip from pipy.
 RUN npm install -g bower    
