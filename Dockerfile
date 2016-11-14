@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y\
     python3 \
     python3-dev \
     python3-virtualenv \
+    python3-pip \
     phantomjs \
     git \
     xvfb \
@@ -24,7 +25,7 @@ RUN npm install -g bower
 RUN ln /usr/bin/nodejs  /usr/bin/node     
 
 # Update to latest pip.
-RUN pip install -U pip
+RUN pip3 install -U pip
 
 # Get the geckdriver
 RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-linux64.tar.gz && \
