@@ -16,7 +16,8 @@ RUN apt-get update && apt-get install -y\
     xvfb \
     firefox \
     nodejs \
-    npm
+    npm \
+    wget
    
 # Latest pip from pipy.
 RUN npm install -g bower
