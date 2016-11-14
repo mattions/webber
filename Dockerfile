@@ -1,7 +1,7 @@
 
 # webber - image to test webapps
 
-FROM ubuntu:16:10
+FROM ubuntu:16.10
 MAINTAINER  mattions "mattions@gmail.com"
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -30,3 +30,4 @@ RUN pip install -U pip
 RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-linux64.tar.gz && \
     tar xf geckodriver-v0.11.1-linux64.tar.gz && \
     cp geckodriver /usr/local/bin/
+    
